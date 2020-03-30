@@ -1,0 +1,306 @@
+@media (max-width:700px)
+{
+    
+    @import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Noto+Sans+KR:500&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Baloo Da 2', cursive;
+
+    }
+
+
+
+     /* header styling */
+    header {
+        background: linear-gradient(to right, #f12e48, #3d19da);
+        display: flex;
+    }
+
+    .side_bar {
+        visibility: hidden;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        background: linear-gradient(to bottom, #f09114, #331504);
+        position: absolute;
+        right: 0px;
+        top: 67px;
+        width: 38%;
+        height: 340px;
+        text-align: center;
+    }
+
+    .button_action {
+        visibility: visible;
+    }
+
+    .div_click {
+        border: none;
+        background-color: transparent;
+        width: 20px;
+        height: auto;
+        margin: auto;
+    }
+
+    .side_bar ul li {
+        margin: 17px 3px;
+        list-style: none;
+    }
+
+    .side_bar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+
+
+
+    .logo {
+
+        margin-top: 8px;
+        margin-left: 15px;
+        margin-right: auto;
+        color: #21243d;
+    }
+
+
+
+    .logo img {
+        border-radius: 5px;
+        width: 50px;
+        height: 50px;
+        color: yellow;
+    }
+
+    .js_nav {
+
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 10px;
+    }
+
+    .js_nav div {
+        margin: 5px;
+        border-radius: 50px;
+        width: 7px;
+        height: 7px;
+        background-color: #ff0000;
+    }
+
+    hr {
+
+        width: 50px;
+        color: red;
+        border: none;
+        border-bottom: 5px dotted red;
+        margin: 10px auto;
+
+    }
+
+
+
+    .nav_button {
+        margin-left: auto;
+        float: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 12px;
+
+    }
+
+    nav {
+        width: 200px;
+        margin: auto;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 37px;
+        color: rgb(221, 192, 192);
+    }
+
+    .nav_button button {
+        font-size: 16px;
+        border-radius: 3px;
+        height: 33px;
+
+        width: 79px;
+        border: none;
+        color: white;
+
+        background-color: #d62635;
+    }
+
+
+ /* heading styling */
+
+
+.heading{
+    font-size: 25px;
+    width: 75%;
+    text-align: center;
+    margin: 15px auto;
+}
+
+
+
+
+
+    
+/*  scroll boxex styling */
+
+.scroll_main_box{
+width: 95%;
+height: 255px;
+
+display: flex;
+flex-flow: nowrap;
+margin: auto;
+overflow-x: scroll;
+}
+.scroll_child{
+    border: none;
+    border-radius: 8px;
+  width: 300px;
+  height: 200px;
+  
+margin: auto 15px;
+overflow: hidden;
+flex-grow: 0;
+flex-shrink: 0;
+flex-basis: auto;
+}
+.scroll_img{
+    width: 100%;
+    height: 100%;
+}
+
+/* scroll---offers */
+.offers{
+    font-size: 25px;
+    color: red;
+    margin: 15px auto;
+    width:75%;
+    text-align: center;
+}
+
+.scroll_sale{
+    border: 4px solid red;
+}
+ .scroll_sale img{
+width: 20%;
+text-align: center;
+margin: auto;
+margin-top: 15px;
+margin-left: 39%;
+
+ }
+ .scroll_sale h4{
+     width: 75%;
+     margin: 10px auto;
+     text-align: center;
+ }
+.scroll_sale div{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+.scroll_sale button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: orange;
+    text-align: center;
+    
+}
+.scroll_sale button:hover{
+    background-color: rgb(248, 36, 36);
+}
+
+
+
+ /* social media icon styling */
+ .social_content{
+     display: flex;
+     width: 58%;
+     margin: auto;
+     text-align: center;
+ }
+ .social_media{
+margin:15px auto;
+width: 50px;
+text-align: center;
+     
+ }
+  .social_media img{
+      width: 40px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer styling */
+
+    footer {
+        background: linear-gradient(to right, #f12e48, #3d19da);
+    }
+
+    .contact_section {
+        width: 200px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+
+
+
+
+}
